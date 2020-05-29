@@ -1,7 +1,7 @@
-# CodingExercises
-I shall put all my coding exercises here!
+# Coding Exercises
+I shall put all coding exercises I have completed right here!
 
-# During Studies
+## During Studies
 Fundamentals of Programming (Java)  
 Fundamentals of Algorithms and Data Structures (Java)
 
