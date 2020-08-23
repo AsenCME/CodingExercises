@@ -26,23 +26,25 @@ public class Quicksort {
         sort(numbers, 0, numbers.length - 1, result);
     }
 
-    public void sort(int[] numbers, int left, int right, Result result) {
+    public void sort(int[] nums, int left, int right, Result result) {
         if (left >= right)
             return;
 
-        int pivot = numbers[right];
-        int idx = left - 1;
-        int k = left;
-        while (k < right) {
-            if (numbers[k++] < pivot)
-                coolSwap(numbers, ++idx, k - 1);
-        }
-        coolSwap(numbers, ++idx, right);
-        sort(numbers, left, idx - 1, result);
-        sort(numbers, idx + 1, right, result);
+        int pivot = nums[right];
+        int idx = left - 1, k = right;
+        do {
+            while (nums[++idx] < pivot)
+                ;
+            while (--k >= left && nums[k] > pivot)
+                ;
+            coolSwap(nums, idx, k);
+        } while (idx < k);
+        coolSwap(nums, idx, right);
+        sort(nums, left, idx - 1, result);
+        sort(nums, idx + 1, right, result);
 
         if (right - left > 0)
-            result.logPartialArray(Arrays.copyOfRange(numbers, left, right + 1));
+            result.logPartialArray(Arrays.copyOfRange(nums, left, right + 1));
     }
 
     public void swap(int[] numbers, int i, int j) {
@@ -52,10 +54,12 @@ public class Quicksort {
     }
 
     public void coolSwap(int[] numbers, int i, int j) {
+        if (i >= j)
+            return;
         if (numbers[i] == numbers[j])
             return;
-        numbers[i] = numbers[i] + numbers[j];
-        numbers[j] = numbers[i] - numbers[j];
-        numbers[i] = numbers[i] - numbers[j];
+        numbers[i] = numbers[i] ^ numbers[j];
+        numbers[j] = numbers[i] ^ numbers[j];
+        numbers[i] = numbers[i] ^ numbers[j];
     }
 }

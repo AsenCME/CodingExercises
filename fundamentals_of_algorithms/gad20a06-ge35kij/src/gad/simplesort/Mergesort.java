@@ -6,7 +6,7 @@ import java.util.Random;
 public class Mergesort {
 
     public static void main(String[] args) {
-        int i = 10;
+        int i = 2;
         int SEED = i * 3;
         int N = i;
         int MAX_V = 100;
@@ -28,7 +28,7 @@ public class Mergesort {
     }
 
     public void sort(int[] numbers, int left, int right, int[] helper, Result result) {
-        if (left == right)
+        if (left >= right)
             return;
         int mid = (left + right) / 2;
         if ((left + right) % 2 == 0)
