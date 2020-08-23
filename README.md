@@ -3,8 +3,8 @@ I shall put all coding exercises I have completed right here!
 
 ## During Studies
 Fundamentals of Programming (Java)  
-Fundamentals of Algorithms and Data Structures (Java)  
 Fundamentals of Software Engineering (Java)  
+Fundamentals of Algorithms and Data Structures (Java)  
 Real-Time Graphics (C++)  
 
 ## Profiles
