@@ -1,0 +1,649 @@
+Inserting: 109
+digraph {
+	node [shape=record];
+	struct0 [label="<f0> |<f1> 109|<f2> "];
+	struct0:<f0> -> struct1;
+	struct1 [label=leaf, shape=ellipse];
+	struct0:<f2> -> struct2;
+	struct2 [label=leaf, shape=ellipse];
+}
+
+Inserting: 23
+digraph {
+	node [shape=record];
+	struct0 [label="<f0> |<f1> 23|<f2> |<f3> 109|<f4> "];
+	struct0:<f0> -> struct1;
+	struct1 [label=leaf, shape=ellipse];
+	struct0:<f2> -> struct2;
+	struct2 [label=leaf, shape=ellipse];
+	struct0:<f4> -> struct3;
+	struct3 [label=leaf, shape=ellipse];
+}
+
+Inserting: 49
+digraph {
+	node [shape=record];
+	struct0 [label="<f0> |<f1> 23|<f2> |<f3> 49|<f4> |<f5> 109|<f6> "];
+	struct0:<f0> -> struct1;
+	struct1 [label=leaf, shape=ellipse];
+	struct0:<f2> -> struct2;
+	struct2 [label=leaf, shape=ellipse];
+	struct0:<f4> -> struct3;
+	struct3 [label=leaf, shape=ellipse];
+	struct0:<f6> -> struct4;
+	struct4 [label=leaf, shape=ellipse];
+}
+
+Inserting: 180
+digraph {
+	node [shape=record];
+	struct0 [label="<f0> |<f1> 109|<f2> "];
+	struct0:<f0> -> struct1;
+	struct1 [label="<f0> |<f1> 23|<f2> |<f3> 49|<f4> "];
+	struct1:<f0> -> struct2;
+	struct2 [label=leaf, shape=ellipse];
+	struct1:<f2> -> struct3;
+	struct3 [label=leaf, shape=ellipse];
+	struct1:<f4> -> struct4;
+	struct4 [label=leaf, shape=ellipse];
+	struct0:<f2> -> struct5;
+	struct5 [label="<f0> |<f1> 180|<f2> "];
+	struct5:<f0> -> struct6;
+	struct6 [label=leaf, shape=ellipse];
+	struct5:<f2> -> struct7;
+	struct7 [label=leaf, shape=ellipse];
+}
+
+Inserting: 120
+digraph {
+	node [shape=record];
+	struct0 [label="<f0> |<f1> 109|<f2> "];
+	struct0:<f0> -> struct1;
+	struct1 [label="<f0> |<f1> 23|<f2> |<f3> 49|<f4> "];
+	struct1:<f0> -> struct2;
+	struct2 [label=leaf, shape=ellipse];
+	struct1:<f2> -> struct3;
+	struct3 [label=leaf, shape=ellipse];
+	struct1:<f4> -> struct4;
+	struct4 [label=leaf, shape=ellipse];
+	struct0:<f2> -> struct5;
+	struct5 [label="<f0> |<f1> 120|<f2> |<f3> 180|<f4> "];
+	struct5:<f0> -> struct6;
+	struct6 [label=leaf, shape=ellipse];
+	struct5:<f2> -> struct7;
+	struct7 [label=leaf, shape=ellipse];
+	struct5:<f4> -> struct8;
+	struct8 [label=leaf, shape=ellipse];
+}
+
+Inserting: 163
+digraph {
+	node [shape=record];
+	struct0 [label="<f0> |<f1> 109|<f2> "];
+	struct0:<f0> -> struct1;
+	struct1 [label="<f0> |<f1> 23|<f2> |<f3> 49|<f4> "];
+	struct1:<f0> -> struct2;
+	struct2 [label=leaf, shape=ellipse];
+	struct1:<f2> -> struct3;
+	struct3 [label=leaf, shape=ellipse];
+	struct1:<f4> -> struct4;
+	struct4 [label=leaf, shape=ellipse];
+	struct0:<f2> -> struct5;
+	struct5 [label="<f0> |<f1> 120|<f2> |<f3> 163|<f4> |<f5> 180|<f6> "];
+	struct5:<f0> -> struct6;
+	struct6 [label=leaf, shape=ellipse];
+	struct5:<f2> -> struct7;
+	struct7 [label=leaf, shape=ellipse];
+	struct5:<f4> -> struct8;
+	struct8 [label=leaf, shape=ellipse];
+	struct5:<f6> -> struct9;
+	struct9 [label=leaf, shape=ellipse];
+}
+
+Inserting: 172
+digraph {
+	node [shape=record];
+	struct0 [label="<f0> |<f1> 109|<f2> |<f3> 172|<f4> "];
+	struct0:<f0> -> struct1;
+	struct1 [label="<f0> |<f1> 23|<f2> |<f3> 49|<f4> "];
+	struct1:<f0> -> struct2;
+	struct2 [label=leaf, shape=ellipse];
+	struct1:<f2> -> struct3;
+	struct3 [label=leaf, shape=ellipse];
+	struct1:<f4> -> struct4;
+	struct4 [label=leaf, shape=ellipse];
+	struct0:<f2> -> struct5;
+	struct5 [label="<f0> |<f1> 120|<f2> |<f3> 163|<f4> "];
+	struct5:<f0> -> struct6;
+	struct6 [label=leaf, shape=ellipse];
+	struct5:<f2> -> struct7;
+	struct7 [label=leaf, shape=ellipse];
+	struct5:<f4> -> struct8;
+	struct8 [label=leaf, shape=ellipse];
+	struct0:<f4> -> struct9;
+	struct9 [label="<f0> |<f1> 180|<f2> "];
+	struct9:<f0> -> struct10;
+	struct10 [label=leaf, shape=ellipse];
+	struct9:<f2> -> struct11;
+	struct11 [label=leaf, shape=ellipse];
+}
+
+Inserting: 130
+digraph {
+	node [shape=record];
+	struct0 [label="<f0> |<f1> 109|<f2> |<f3> 172|<f4> "];
+	struct0:<f0> -> struct1;
+	struct1 [label="<f0> |<f1> 23|<f2> |<f3> 49|<f4> "];
+	struct1:<f0> -> struct2;
+	struct2 [label=leaf, shape=ellipse];
+	struct1:<f2> -> struct3;
+	struct3 [label=leaf, shape=ellipse];
+	struct1:<f4> -> struct4;
+	struct4 [label=leaf, shape=ellipse];
+	struct0:<f2> -> struct5;
+	struct5 [label="<f0> |<f1> 120|<f2> |<f3> 130|<f4> |<f5> 163|<f6> "];
+	struct5:<f0> -> struct6;
+	struct6 [label=leaf, shape=ellipse];
+	struct5:<f2> -> struct7;
+	struct7 [label=leaf, shape=ellipse];
+	struct5:<f4> -> struct8;
+	struct8 [label=leaf, shape=ellipse];
+	struct5:<f6> -> struct9;
+	struct9 [label=leaf, shape=ellipse];
+	struct0:<f4> -> struct10;
+	struct10 [label="<f0> |<f1> 180|<f2> "];
+	struct10:<f0> -> struct11;
+	struct11 [label=leaf, shape=ellipse];
+	struct10:<f2> -> struct12;
+	struct12 [label=leaf, shape=ellipse];
+}
+
+Inserting: 95
+digraph {
+	node [shape=record];
+	struct0 [label="<f0> |<f1> 109|<f2> |<f3> 172|<f4> "];
+	struct0:<f0> -> struct1;
+	struct1 [label="<f0> |<f1> 23|<f2> |<f3> 49|<f4> |<f5> 95|<f6> "];
+	struct1:<f0> -> struct2;
+	struct2 [label=leaf, shape=ellipse];
+	struct1:<f2> -> struct3;
+	struct3 [label=leaf, shape=ellipse];
+	struct1:<f4> -> struct4;
+	struct4 [label=leaf, shape=ellipse];
+	struct1:<f6> -> struct5;
+	struct5 [label=leaf, shape=ellipse];
+	struct0:<f2> -> struct6;
+	struct6 [label="<f0> |<f1> 120|<f2> |<f3> 130|<f4> |<f5> 163|<f6> "];
+	struct6:<f0> -> struct7;
+	struct7 [label=leaf, shape=ellipse];
+	struct6:<f2> -> struct8;
+	struct8 [label=leaf, shape=ellipse];
+	struct6:<f4> -> struct9;
+	struct9 [label=leaf, shape=ellipse];
+	struct6:<f6> -> struct10;
+	struct10 [label=leaf, shape=ellipse];
+	struct0:<f4> -> struct11;
+	struct11 [label="<f0> |<f1> 180|<f2> "];
+	struct11:<f0> -> struct12;
+	struct12 [label=leaf, shape=ellipse];
+	struct11:<f2> -> struct13;
+	struct13 [label=leaf, shape=ellipse];
+}
+
+Inserting: 156
+digraph {
+	node [shape=record];
+	struct0 [label="<f0> |<f1> 109|<f2> |<f3> 156|<f4> |<f5> 172|<f6> "];
+	struct0:<f0> -> struct1;
+	struct1 [label="<f0> |<f1> 23|<f2> |<f3> 49|<f4> |<f5> 95|<f6> "];
+	struct1:<f0> -> struct2;
+	struct2 [label=leaf, shape=ellipse];
+	struct1:<f2> -> struct3;
+	struct3 [label=leaf, shape=ellipse];
+	struct1:<f4> -> struct4;
+	struct4 [label=leaf, shape=ellipse];
+	struct1:<f6> -> struct5;
+	struct5 [label=leaf, shape=ellipse];
+	struct0:<f2> -> struct6;
+	struct6 [label="<f0> |<f1> 120|<f2> |<f3> 130|<f4> "];
+	struct6:<f0> -> struct7;
+	struct7 [label=leaf, shape=ellipse];
+	struct6:<f2> -> struct8;
+	struct8 [label=leaf, shape=ellipse];
+	struct6:<f4> -> struct9;
+	struct9 [label=leaf, shape=ellipse];
+	struct0:<f4> -> struct10;
+	struct10 [label="<f0> |<f1> 163|<f2> "];
+	struct10:<f0> -> struct11;
+	struct11 [label=leaf, shape=ellipse];
+	struct10:<f2> -> struct12;
+	struct12 [label=leaf, shape=ellipse];
+	struct0:<f6> -> struct13;
+	struct13 [label="<f0> |<f1> 180|<f2> "];
+	struct13:<f0> -> struct14;
+	struct14 [label=leaf, shape=ellipse];
+	struct13:<f2> -> struct15;
+	struct15 [label=leaf, shape=ellipse];
+}
+
+Inserting: 99
+digraph {
+	node [shape=record];
+	struct0 [label="<f0> |<f1> 156|<f2> "];
+	struct0:<f0> -> struct1;
+	struct1 [label="<f0> |<f1> 95|<f2> |<f3> 109|<f4> "];
+	struct1:<f0> -> struct2;
+	struct2 [label="<f0> |<f1> 23|<f2> |<f3> 49|<f4> "];
+	struct2:<f0> -> struct3;
+	struct3 [label=leaf, shape=ellipse];
+	struct2:<f2> -> struct4;
+	struct4 [label=leaf, shape=ellipse];
+	struct2:<f4> -> struct5;
+	struct5 [label=leaf, shape=ellipse];
+	struct1:<f2> -> struct6;
+	struct6 [label="<f0> |<f1> 99|<f2> "];
+	struct6:<f0> -> struct7;
+	struct7 [label=leaf, shape=ellipse];
+	struct6:<f2> -> struct8;
+	struct8 [label=leaf, shape=ellipse];
+	struct1:<f4> -> struct9;
+	struct9 [label="<f0> |<f1> 120|<f2> |<f3> 130|<f4> "];
+	struct9:<f0> -> struct10;
+	struct10 [label=leaf, shape=ellipse];
+	struct9:<f2> -> struct11;
+	struct11 [label=leaf, shape=ellipse];
+	struct9:<f4> -> struct12;
+	struct12 [label=leaf, shape=ellipse];
+	struct0:<f2> -> struct13;
+	struct13 [label="<f0> |<f1> 172|<f2> "];
+	struct13:<f0> -> struct14;
+	struct14 [label="<f0> |<f1> 163|<f2> "];
+	struct14:<f0> -> struct15;
+	struct15 [label=leaf, shape=ellipse];
+	struct14:<f2> -> struct16;
+	struct16 [label=leaf, shape=ellipse];
+	struct13:<f2> -> struct17;
+	struct17 [label="<f0> |<f1> 180|<f2> "];
+	struct17:<f0> -> struct18;
+	struct18 [label=leaf, shape=ellipse];
+	struct17:<f2> -> struct19;
+	struct19 [label=leaf, shape=ellipse];
+}
+
+Inserting: 39
+digraph {
+	node [shape=record];
+	struct0 [label="<f0> |<f1> 156|<f2> "];
+	struct0:<f0> -> struct1;
+	struct1 [label="<f0> |<f1> 95|<f2> |<f3> 109|<f4> "];
+	struct1:<f0> -> struct2;
+	struct2 [label="<f0> |<f1> 23|<f2> |<f3> 39|<f4> |<f5> 49|<f6> "];
+	struct2:<f0> -> struct3;
+	struct3 [label=leaf, shape=ellipse];
+	struct2:<f2> -> struct4;
+	struct4 [label=leaf, shape=ellipse];
+	struct2:<f4> -> struct5;
+	struct5 [label=leaf, shape=ellipse];
+	struct2:<f6> -> struct6;
+	struct6 [label=leaf, shape=ellipse];
+	struct1:<f2> -> struct7;
+	struct7 [label="<f0> |<f1> 99|<f2> "];
+	struct7:<f0> -> struct8;
+	struct8 [label=leaf, shape=ellipse];
+	struct7:<f2> -> struct9;
+	struct9 [label=leaf, shape=ellipse];
+	struct1:<f4> -> struct10;
+	struct10 [label="<f0> |<f1> 120|<f2> |<f3> 130|<f4> "];
+	struct10:<f0> -> struct11;
+	struct11 [label=leaf, shape=ellipse];
+	struct10:<f2> -> struct12;
+	struct12 [label=leaf, shape=ellipse];
+	struct10:<f4> -> struct13;
+	struct13 [label=leaf, shape=ellipse];
+	struct0:<f2> -> struct14;
+	struct14 [label="<f0> |<f1> 172|<f2> "];
+	struct14:<f0> -> struct15;
+	struct15 [label="<f0> |<f1> 163|<f2> "];
+	struct15:<f0> -> struct16;
+	struct16 [label=leaf, shape=ellipse];
+	struct15:<f2> -> struct17;
+	struct17 [label=leaf, shape=ellipse];
+	struct14:<f2> -> struct18;
+	struct18 [label="<f0> |<f1> 180|<f2> "];
+	struct18:<f0> -> struct19;
+	struct19 [label=leaf, shape=ellipse];
+	struct18:<f2> -> struct20;
+	struct20 [label=leaf, shape=ellipse];
+}
+
+Inserting: 178
+digraph {
+	node [shape=record];
+	struct0 [label="<f0> |<f1> 156|<f2> "];
+	struct0:<f0> -> struct1;
+	struct1 [label="<f0> |<f1> 95|<f2> |<f3> 109|<f4> "];
+	struct1:<f0> -> struct2;
+	struct2 [label="<f0> |<f1> 23|<f2> |<f3> 39|<f4> |<f5> 49|<f6> "];
+	struct2:<f0> -> struct3;
+	struct3 [label=leaf, shape=ellipse];
+	struct2:<f2> -> struct4;
+	struct4 [label=leaf, shape=ellipse];
+	struct2:<f4> -> struct5;
+	struct5 [label=leaf, shape=ellipse];
+	struct2:<f6> -> struct6;
+	struct6 [label=leaf, shape=ellipse];
+	struct1:<f2> -> struct7;
+	struct7 [label="<f0> |<f1> 99|<f2> "];
+	struct7:<f0> -> struct8;
+	struct8 [label=leaf, shape=ellipse];
+	struct7:<f2> -> struct9;
+	struct9 [label=leaf, shape=ellipse];
+	struct1:<f4> -> struct10;
+	struct10 [label="<f0> |<f1> 120|<f2> |<f3> 130|<f4> "];
+	struct10:<f0> -> struct11;
+	struct11 [label=leaf, shape=ellipse];
+	struct10:<f2> -> struct12;
+	struct12 [label=leaf, shape=ellipse];
+	struct10:<f4> -> struct13;
+	struct13 [label=leaf, shape=ellipse];
+	struct0:<f2> -> struct14;
+	struct14 [label="<f0> |<f1> 172|<f2> "];
+	struct14:<f0> -> struct15;
+	struct15 [label="<f0> |<f1> 163|<f2> "];
+	struct15:<f0> -> struct16;
+	struct16 [label=leaf, shape=ellipse];
+	struct15:<f2> -> struct17;
+	struct17 [label=leaf, shape=ellipse];
+	struct14:<f2> -> struct18;
+	struct18 [label="<f0> |<f1> 178|<f2> |<f3> 180|<f4> "];
+	struct18:<f0> -> struct19;
+	struct19 [label=leaf, shape=ellipse];
+	struct18:<f2> -> struct20;
+	struct20 [label=leaf, shape=ellipse];
+	struct18:<f4> -> struct21;
+	struct21 [label=leaf, shape=ellipse];
+}
+
+Inserting: 197
+digraph {
+	node [shape=record];
+	struct0 [label="<f0> |<f1> 156|<f2> "];
+	struct0:<f0> -> struct1;
+	struct1 [label="<f0> |<f1> 95|<f2> |<f3> 109|<f4> "];
+	struct1:<f0> -> struct2;
+	struct2 [label="<f0> |<f1> 23|<f2> |<f3> 39|<f4> |<f5> 49|<f6> "];
+	struct2:<f0> -> struct3;
+	struct3 [label=leaf, shape=ellipse];
+	struct2:<f2> -> struct4;
+	struct4 [label=leaf, shape=ellipse];
+	struct2:<f4> -> struct5;
+	struct5 [label=leaf, shape=ellipse];
+	struct2:<f6> -> struct6;
+	struct6 [label=leaf, shape=ellipse];
+	struct1:<f2> -> struct7;
+	struct7 [label="<f0> |<f1> 99|<f2> "];
+	struct7:<f0> -> struct8;
+	struct8 [label=leaf, shape=ellipse];
+	struct7:<f2> -> struct9;
+	struct9 [label=leaf, shape=ellipse];
+	struct1:<f4> -> struct10;
+	struct10 [label="<f0> |<f1> 120|<f2> |<f3> 130|<f4> "];
+	struct10:<f0> -> struct11;
+	struct11 [label=leaf, shape=ellipse];
+	struct10:<f2> -> struct12;
+	struct12 [label=leaf, shape=ellipse];
+	struct10:<f4> -> struct13;
+	struct13 [label=leaf, shape=ellipse];
+	struct0:<f2> -> struct14;
+	struct14 [label="<f0> |<f1> 172|<f2> "];
+	struct14:<f0> -> struct15;
+	struct15 [label="<f0> |<f1> 163|<f2> "];
+	struct15:<f0> -> struct16;
+	struct16 [label=leaf, shape=ellipse];
+	struct15:<f2> -> struct17;
+	struct17 [label=leaf, shape=ellipse];
+	struct14:<f2> -> struct18;
+	struct18 [label="<f0> |<f1> 178|<f2> |<f3> 180|<f4> |<f5> 197|<f6> "];
+	struct18:<f0> -> struct19;
+	struct19 [label=leaf, shape=ellipse];
+	struct18:<f2> -> struct20;
+	struct20 [label=leaf, shape=ellipse];
+	struct18:<f4> -> struct21;
+	struct21 [label=leaf, shape=ellipse];
+	struct18:<f6> -> struct22;
+	struct22 [label=leaf, shape=ellipse];
+}
+
+Inserting: 71
+digraph {
+	node [shape=record];
+	struct0 [label="<f0> |<f1> 156|<f2> "];
+	struct0:<f0> -> struct1;
+	struct1 [label="<f0> |<f1> 49|<f2> |<f3> 95|<f4> |<f5> 109|<f6> "];
+	struct1:<f0> -> struct2;
+	struct2 [label="<f0> |<f1> 23|<f2> |<f3> 39|<f4> "];
+	struct2:<f0> -> struct3;
+	struct3 [label=leaf, shape=ellipse];
+	struct2:<f2> -> struct4;
+	struct4 [label=leaf, shape=ellipse];
+	struct2:<f4> -> struct5;
+	struct5 [label=leaf, shape=ellipse];
+	struct1:<f2> -> struct6;
+	struct6 [label="<f0> |<f1> 71|<f2> "];
+	struct6:<f0> -> struct7;
+	struct7 [label=leaf, shape=ellipse];
+	struct6:<f2> -> struct8;
+	struct8 [label=leaf, shape=ellipse];
+	struct1:<f4> -> struct9;
+	struct9 [label="<f0> |<f1> 99|<f2> "];
+	struct9:<f0> -> struct10;
+	struct10 [label=leaf, shape=ellipse];
+	struct9:<f2> -> struct11;
+	struct11 [label=leaf, shape=ellipse];
+	struct1:<f6> -> struct12;
+	struct12 [label="<f0> |<f1> 120|<f2> |<f3> 130|<f4> "];
+	struct12:<f0> -> struct13;
+	struct13 [label=leaf, shape=ellipse];
+	struct12:<f2> -> struct14;
+	struct14 [label=leaf, shape=ellipse];
+	struct12:<f4> -> struct15;
+	struct15 [label=leaf, shape=ellipse];
+	struct0:<f2> -> struct16;
+	struct16 [label="<f0> |<f1> 172|<f2> "];
+	struct16:<f0> -> struct17;
+	struct17 [label="<f0> |<f1> 163|<f2> "];
+	struct17:<f0> -> struct18;
+	struct18 [label=leaf, shape=ellipse];
+	struct17:<f2> -> struct19;
+	struct19 [label=leaf, shape=ellipse];
+	struct16:<f2> -> struct20;
+	struct20 [label="<f0> |<f1> 178|<f2> |<f3> 180|<f4> |<f5> 197|<f6> "];
+	struct20:<f0> -> struct21;
+	struct21 [label=leaf, shape=ellipse];
+	struct20:<f2> -> struct22;
+	struct22 [label=leaf, shape=ellipse];
+	struct20:<f4> -> struct23;
+	struct23 [label=leaf, shape=ellipse];
+	struct20:<f6> -> struct24;
+	struct24 [label=leaf, shape=ellipse];
+}
+
+Inserting: 194
+digraph {
+	node [shape=record];
+	struct0 [label="<f0> |<f1> 156|<f2> "];
+	struct0:<f0> -> struct1;
+	struct1 [label="<f0> |<f1> 49|<f2> |<f3> 95|<f4> |<f5> 109|<f6> "];
+	struct1:<f0> -> struct2;
+	struct2 [label="<f0> |<f1> 23|<f2> |<f3> 39|<f4> "];
+	struct2:<f0> -> struct3;
+	struct3 [label=leaf, shape=ellipse];
+	struct2:<f2> -> struct4;
+	struct4 [label=leaf, shape=ellipse];
+	struct2:<f4> -> struct5;
+	struct5 [label=leaf, shape=ellipse];
+	struct1:<f2> -> struct6;
+	struct6 [label="<f0> |<f1> 71|<f2> "];
+	struct6:<f0> -> struct7;
+	struct7 [label=leaf, shape=ellipse];
+	struct6:<f2> -> struct8;
+	struct8 [label=leaf, shape=ellipse];
+	struct1:<f4> -> struct9;
+	struct9 [label="<f0> |<f1> 99|<f2> "];
+	struct9:<f0> -> struct10;
+	struct10 [label=leaf, shape=ellipse];
+	struct9:<f2> -> struct11;
+	struct11 [label=leaf, shape=ellipse];
+	struct1:<f6> -> struct12;
+	struct12 [label="<f0> |<f1> 120|<f2> |<f3> 130|<f4> "];
+	struct12:<f0> -> struct13;
+	struct13 [label=leaf, shape=ellipse];
+	struct12:<f2> -> struct14;
+	struct14 [label=leaf, shape=ellipse];
+	struct12:<f4> -> struct15;
+	struct15 [label=leaf, shape=ellipse];
+	struct0:<f2> -> struct16;
+	struct16 [label="<f0> |<f1> 172|<f2> |<f3> 194|<f4> "];
+	struct16:<f0> -> struct17;
+	struct17 [label="<f0> |<f1> 163|<f2> "];
+	struct17:<f0> -> struct18;
+	struct18 [label=leaf, shape=ellipse];
+	struct17:<f2> -> struct19;
+	struct19 [label=leaf, shape=ellipse];
+	struct16:<f2> -> struct20;
+	struct20 [label="<f0> |<f1> 178|<f2> |<f3> 180|<f4> "];
+	struct20:<f0> -> struct21;
+	struct21 [label=leaf, shape=ellipse];
+	struct20:<f2> -> struct22;
+	struct22 [label=leaf, shape=ellipse];
+	struct20:<f4> -> struct23;
+	struct23 [label=leaf, shape=ellipse];
+	struct16:<f4> -> struct24;
+	struct24 [label="<f0> |<f1> 197|<f2> "];
+	struct24:<f0> -> struct25;
+	struct25 [label=leaf, shape=ellipse];
+	struct24:<f2> -> struct26;
+	struct26 [label=leaf, shape=ellipse];
+}
+
+Inserting: 118
+digraph {
+	node [shape=record];
+	struct0 [label="<f0> |<f1> 156|<f2> "];
+	struct0:<f0> -> struct1;
+	struct1 [label="<f0> |<f1> 49|<f2> |<f3> 95|<f4> |<f5> 109|<f6> "];
+	struct1:<f0> -> struct2;
+	struct2 [label="<f0> |<f1> 23|<f2> |<f3> 39|<f4> "];
+	struct2:<f0> -> struct3;
+	struct3 [label=leaf, shape=ellipse];
+	struct2:<f2> -> struct4;
+	struct4 [label=leaf, shape=ellipse];
+	struct2:<f4> -> struct5;
+	struct5 [label=leaf, shape=ellipse];
+	struct1:<f2> -> struct6;
+	struct6 [label="<f0> |<f1> 71|<f2> "];
+	struct6:<f0> -> struct7;
+	struct7 [label=leaf, shape=ellipse];
+	struct6:<f2> -> struct8;
+	struct8 [label=leaf, shape=ellipse];
+	struct1:<f4> -> struct9;
+	struct9 [label="<f0> |<f1> 99|<f2> "];
+	struct9:<f0> -> struct10;
+	struct10 [label=leaf, shape=ellipse];
+	struct9:<f2> -> struct11;
+	struct11 [label=leaf, shape=ellipse];
+	struct1:<f6> -> struct12;
+	struct12 [label="<f0> |<f1> 118|<f2> |<f3> 120|<f4> |<f5> 130|<f6> "];
+	struct12:<f0> -> struct13;
+	struct13 [label=leaf, shape=ellipse];
+	struct12:<f2> -> struct14;
+	struct14 [label=leaf, shape=ellipse];
+	struct12:<f4> -> struct15;
+	struct15 [label=leaf, shape=ellipse];
+	struct12:<f6> -> struct16;
+	struct16 [label=leaf, shape=ellipse];
+	struct0:<f2> -> struct17;
+	struct17 [label="<f0> |<f1> 172|<f2> |<f3> 194|<f4> "];
+	struct17:<f0> -> struct18;
+	struct18 [label="<f0> |<f1> 163|<f2> "];
+	struct18:<f0> -> struct19;
+	struct19 [label=leaf, shape=ellipse];
+	struct18:<f2> -> struct20;
+	struct20 [label=leaf, shape=ellipse];
+	struct17:<f2> -> struct21;
+	struct21 [label="<f0> |<f1> 178|<f2> |<f3> 180|<f4> "];
+	struct21:<f0> -> struct22;
+	struct22 [label=leaf, shape=ellipse];
+	struct21:<f2> -> struct23;
+	struct23 [label=leaf, shape=ellipse];
+	struct21:<f4> -> struct24;
+	struct24 [label=leaf, shape=ellipse];
+	struct17:<f4> -> struct25;
+	struct25 [label="<f0> |<f1> 197|<f2> "];
+	struct25:<f0> -> struct26;
+	struct26 [label=leaf, shape=ellipse];
+	struct25:<f2> -> struct27;
+	struct27 [label=leaf, shape=ellipse];
+}
+
+Inserting: 88
+digraph {
+	node [shape=record];
+	struct0 [label="<f0> |<f1> 156|<f2> "];
+	struct0:<f0> -> struct1;
+	struct1 [label="<f0> |<f1> 49|<f2> |<f3> 95|<f4> |<f5> 109|<f6> "];
+	struct1:<f0> -> struct2;
+	struct2 [label="<f0> |<f1> 23|<f2> |<f3> 39|<f4> "];
+	struct2:<f0> -> struct3;
+	struct3 [label=leaf, shape=ellipse];
+	struct2:<f2> -> struct4;
+	struct4 [label=leaf, shape=ellipse];
+	struct2:<f4> -> struct5;
+	struct5 [label=leaf, shape=ellipse];
+	struct1:<f2> -> struct6;
+	struct6 [label="<f0> |<f1> 71|<f2> |<f3> 88|<f4> "];
+	struct6:<f0> -> struct7;
+	struct7 [label=leaf, shape=ellipse];
+	struct6:<f2> -> struct8;
+	struct8 [label=leaf, shape=ellipse];
+	struct6:<f4> -> struct9;
+	struct9 [label=leaf, shape=ellipse];
+	struct1:<f4> -> struct10;
+	struct10 [label="<f0> |<f1> 99|<f2> "];
+	struct10:<f0> -> struct11;
+	struct11 [label=leaf, shape=ellipse];
+	struct10:<f2> -> struct12;
+	struct12 [label=leaf, shape=ellipse];
+	struct1:<f6> -> struct13;
+	struct13 [label="<f0> |<f1> 118|<f2> |<f3> 120|<f4> |<f5> 130|<f6> "];
+	struct13:<f0> -> struct14;
+	struct14 [label=leaf, shape=ellipse];
+	struct13:<f2> -> struct15;
+	struct15 [label=leaf, shape=ellipse];
+	struct13:<f4> -> struct16;
+	struct16 [label=leaf, shape=ellipse];
+	struct13:<f6> -> struct17;
+	struct17 [label=leaf, shape=ellipse];
+	struct0:<f2> -> struct18;
+	struct18 [label="<f0> |<f1> 172|<f2> |<f3> 194|<f4> "];
+	struct18:<f0> -> struct19;
+	struct19 [label="<f0> |<f1> 163|<f2> "];
+	struct19:<f0> -> struct20;
+	struct20 [label=leaf, shape=ellipse];
+	struct19:<f2> -> struct21;
+	struct21 [label=leaf, shape=ellipse];
+	struct18:<f2> -> struct22;
+	struct22 [label="<f0> |<f1> 178|<f2> |<f3> 180|<f4> "];
+	struct22:<f0> -> struct23;
+	struct23 [label=leaf, shape=ellipse];
+	struct22:<f2> -> struct24;
+	struct24 [label=leaf, shape=ellipse];
+	struct22:<f4> -> struct25;
+	struct25 [label=leaf, shape=ellipse];
+	struct18:<f4> -> struct26;
+	struct26 [label="<f0> |<f1> 197|<f2> "];
+	struct26:<f0> -> struct27;
+	struct27 [label=leaf, shape=ellipse];
+	struct26:<f2> -> struct28;
+	struct28 [label=leaf, shape=ellipse];
+}
